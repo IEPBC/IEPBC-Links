@@ -1,0 +1,112 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+* body{
+   height: 100vh;
+   background: url(./Assets/background.jpg) no-repeat top center/cover;
+}
+
+#container {
+    height: 712px;
+    width: 100%;
+    margin: auto;
+    padding: 24px;
+    max-width: 500px;
+}
+
+#profile img{
+    border-radius: 20px;
+    margin: auto;
+    display: block;
+    height: 112px
+}
+
+#profile p{
+    text-align: center;
+    padding: 20px;
+    
+    font-family: "Montserrat", sans-serif;
+    font-weight: 550;
+    margin: 7px 0px 0px 0px;
+    font-size: large;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 0px 0px 7px;
+}
+
+
+
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    text-align: center;
+}
+
+
+
+ul li a{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 510;
+    margin: 16px 0px 7px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: black;
+    -webkit-backdrop-filter: blur(4px);
+    transition: background 0.2s;
+    
+}
+
+ul li a:hover {
+    background: rgba(201, 201, 201 , 1.5);
+    border: 1.5px solid black;
+}
+
+#versicle p{
+    font-family: "Montserrat", sans-serif;
+    font-style: italic;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+#QRcode p {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-weight: 525;
+    margin: 10px;
+}
+
+#QRcode img {
+    height: 190px;
+    display: flex;
+    margin: 10px 0px 80px 120px;
+    padding: 0px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
