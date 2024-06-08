@@ -92,7 +92,7 @@ ul li a:hover {
 #QRcode img {
     height: 190px;
     display: flex;
-    margin: 10px 0px 80px 120px;
+    margin: auto;
     padding: 0px;
     border-radius: 20px;
     border: 1px solid black;
